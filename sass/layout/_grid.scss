@@ -1,6 +1,5 @@
 .row {
     max-width: 114rem;
-    background-color: #eee;
     margin: 0 auto; // center block element inside block
     // last row should not have a vertical margin
     &:not(:last-child) {
@@ -11,7 +10,6 @@
 
     // select all elements where all class elements starts with col- (^), ends with col- ($) or includes col- (*)
     [class^="col-"] {
-        background-color: orangered;
         float: left;
 
         &:not(:last-child) {
